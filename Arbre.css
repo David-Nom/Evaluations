@@ -163,3 +163,4 @@ form input[type="email"]:focus {
     background: #388e3c;
     box-shadow: 0 0 12px #66bb6a, 0 0 20px #2e7d32;
 }
+.Dav-zoom:hover {transform: scale(1.1);}
