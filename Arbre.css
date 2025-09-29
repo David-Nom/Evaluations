@@ -1,7 +1,33 @@
+*{
+
+}
+body {
+    background-image: url("./Images/Fond.png") ;
+    background-color: rgb(54, 52, 52);
+    color: white;
+}
 /*li*/
-.Dav-li::before {content: "✓";opacity: 0;position: absolute;left: 5px;transition: transform 0.4s ease, color 0.4s ease;}
+.Dav-li::before {
+    content: "✓";
+    opacity: 0;position: 
+    absolute;left: 5px;
+    transition: transform 0.4s ease, color 0.4s ease;
+}
 .Dav-li:hover::before{opacity: 1;transform: scale(1.5);color: limegreen;}
 .Dav-li:hover {color: limegreen;}
 
 .Dav-zoom1:hover { transform: scale(1.1);}/*zoom hover*/
 .Dav-Neon-Vert:hover {box-shadow: 0 0 20px #28a745, 0 0 40px #28a745;transform: scale(1.05);}/*Bouton*/
+nav {
+    position: sticky;/*comme demmander*/
+    background-color: black;
+    gap:5%;
+}
+a{
+    text-decoration: none;
+    font-size: x-large;
+}
+form {
+    margin:10%;
+     gap:5%;
+}
